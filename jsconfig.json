@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/layouts/*": ["layouts/*"],
+      "@/styles/*": ["styles/*"],
+      "@/connectors/*": ["connectors/*"],
+      "@/data/*": ["data/*"],
+      "@/helps/*": ["helps/*"],
+      "@/lib/*": ["lib/*"]
+    }
+  }
+}
