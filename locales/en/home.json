@@ -30,16 +30,15 @@
   "ico": "ICO Funding",
   "audit": "Smart Contract audit completion",
 
-  "privatesale": "Private Sale",
+  "publicsale": "Public Sale",
   "Prototype": "Game ProtoType Development",
   "Characters": "Characters 3D Design",
   "Marketing2": "Marketing Compaigns",
 
-  "publicsale": "public Sale",
+  "privatesale": "IDO",
   "websiteV2": "Website V2",
   "Ecosystem": "LOP Ecosystem",
   "deploy": "Deploying smart contract",
-  "listing": "DEX listing",
   "markets": "Coingecko, Coin MarketCap listing",
 
   "NFTMBeta": "NFT Marketplace beta test",

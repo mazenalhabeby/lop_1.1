@@ -1,6 +1,6 @@
 import {ethers} from 'ethers'
 
-export const SUPPORTED_CHAINIDS = [97]
+export const SUPPORTED_CHAINIDS = [56]
 
 export const isRightNetwork = (chainId) => {
   return SUPPORTED_CHAINIDS.includes(chainId)

@@ -37,7 +37,7 @@ const RoadMap = () => {
       id: 3,
       head: 'Q3 / 2022',
       stips: [
-        {id: 1, sDetail: t('privatesale'), stat: false},
+        {id: 1, sDetail: t('publicsale'), stat: false},
         {id: 2, sDetail: t('Prototype'), stat: false},
         {id: 3, sDetail: t('Characters'), stat: false},
         {id: 4, sDetail: t('Marketing2'), stat: false},
@@ -48,7 +48,7 @@ const RoadMap = () => {
       id: 4,
       head: 'Q4 / 2022',
       stips: [
-        {id: 1, sDetail: t('publicsale'), stat: false},
+        {id: 1, sDetail: t('privatesale'), stat: false},
         {id: 2, sDetail: t('websiteV2'), stat: false},
         {id: 3, sDetail: t('Ecosystem'), stat: false},
         {id: 4, sDetail: t('deploy'), stat: false},

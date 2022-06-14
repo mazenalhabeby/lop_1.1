@@ -59,12 +59,12 @@ const Hero = () => {
               height={'4rem'}
               href={'/ico'}
             />
-            <BtnWithBorder
+            {/* <BtnWithBorder
               content="papyrus"
               width={'11rem'}
               height={'4rem'}
               href={'/'}
-            />
+            /> */}
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@ import ContactWallet from '@/components/contactWallet'
 import InfoSide from '@/components/pages/ico/InfoSide'
 import SaleSide from '@/components/pages/ico/SaleSide'
 import WalletModel from '@/components/WalletModel'
+import {getBusdRContract} from '@/helps/BUSDR'
 import {getLinkContract} from '@/helps/LINK'
 import {toFloat} from '@/helps/number'
 import {formatBalance} from '@/helps/web3'
@@ -30,7 +31,7 @@ const ConnectorNames = {
 
 const connectorsByName = {
   [ConnectorNames.Injected]: injected,
-  [ConnectorNames.WalletConnect]: walletconnect,
+  // [ConnectorNames.WalletConnect]: walletconnect,
 }
 
 function getErrorMessage(error) {
@@ -60,7 +61,7 @@ function getErrorMessage(error) {
 
 function getLibrary(provider) {
   const library = new Web3Provider(provider)
-  library.pollingInterval = 12000
+  library.pollingInterval = 15000
   return library
 }
 
@@ -97,9 +98,9 @@ function Ico({sale}) {
   const [activatingConnector, setActivatingConnector] = useState()
   const [fitchBalance, setFitchBalance] = useState(false)
 
-  const contract = getLinkContract(library, account)
+  const contract = getBusdRContract(library, account)
 
-  const recieverAddress = '0x9Eb2C07FE4c419aE4495d3b5ADfc44e010F04f0D'
+  const recieverAddress = '0x2e1904DDd763C4d9FdfaF132D5AED06D49e22868'
 
   useEffect(() => {
     if (model) {
